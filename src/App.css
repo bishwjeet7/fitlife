@@ -1,38 +1,510 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Anton&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  /* background-color: #f5f5f5; */
+  height: 100vh;
+  width: 100%;
+}
+
+.company-heading{
+  /* display: inline-flex; */
+  position: relative;
+}
+.headingLine{
+  position: absolute;
+  top: 5%;
+  padding: 4%;
+  text-align: center;
+  width: 50%;
+}
+
+.headingLine strong{
+  font-size:xx-large;
+  text-decoration: underline;
+  font-family: 'Alkatra', cursive;
+  font-family: 'Anton', sans-serif;
+
+}
+
+.doctorImg{
+  position: absolute;
+  top: 2%;
+  right: 0;
+  width: 50%;
+  height: 80%;
+}
+
+
+.workOut{
+  margin-left: 50px;
+}
+
+/*Login css*/
+body {
+  background-color: hsl(0, 0%, 96%);
+}
+
+/*footer*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed{
+	background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+/* .container {
+  color: white;
+  box-shadow: 0px 0px 12px #ccc;
+  border-radius: 8px;
+  padding: 3rem;
+  margin: auto;
+} */
+ 
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 15px 4px;
+  margin: 8px 0;
+  border-radius: 8px;
+  color: #111010;
+}
+ 
+.btn {
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  margin: 8px 0;
+  padding: 15px 0;
+  background-color: #698bf8;
+  color: black;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* unvisited link */
+ 
+.btn-outline {
+  background-color: #fff;
+  color: #A6BCDA;
+}
+ 
+.center {
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+  font-size: large;
+  font-weight: 100;
+}
+ 
+p {
+  margin: 10px 0;
+}
+ 
+.img-container {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ 
+.img-container img {
+  height: 200px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Vid{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+
+.colorchange{
+  background-color: #F1F5D0;
+  color: #111010;
+}
+
+.exe{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.allExerciseContainer{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-gap: 25px;
+}  
+/*showExercise card */
+.exercise-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  /* width: calc(32.33% - 10px); subtracting margin from total width */
+  margin-bottom: 20px;
+  flex-basis: 0;
 }
 
-@keyframes App-logo-spin {
+.exercise-card:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.exercise-card-image {
+  height: 300px;
+}
+
+.exercise-card-image img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.exercise-card-info {
+  padding: 20px;
+}
+
+.exercise-card-info h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.exercise-card-info p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.exercise-card-details {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.categ::first-letter {
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+
+/*Search css*/
+:root {
+  --color-background: #222;
+  --color-foreground: #ddd;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+}
+.container {
+  align-items: center;
+  /* background: var(--color-background); */
+  display: flex;
+  /* height: 100vh; */
+  justify-content: center;
+}
+.search {
+  --easing: cubic-bezier(0.4, 0, 0.2, 1);
+  --font-size: 2rem;
+  --color: var(--color-foreground);
+  --color-highlight: white;
+  --transition-time-icon: 0.2s;
+  --transition-time-input: 0.3s 0.25s;
+  border-radius: 999px;
+  border: 2px solid transparent;
+  display: flex;
+  transition: border-color var(--transition-time-icon) linear, padding var(--transition-time-input) var(--easing);
+}
+.search:not(:focus-within) {
+  --transition-time-input: 0.2s 0s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .search {
+    --transition-time-icon: 0s !important;
+    --transition-time-input: 0s !important;
+  }
+}
+.search__input {
+  background: transparent;
+  border: none;
+  color: var(--color-highlight);
+  font-size: var(--font-size);
+  opacity: 0;
+  outline: none;
+  padding: 0;
+  transition: width var(--transition-time-input) var(--easing), padding var(--transition-time-input) var(--easing), opacity var(--transition-time-input) linear;
+  width: 0;
+}
+.search__input::placeholder {
+  color: var(--color);
+  opacity: 0.75;
+}
+.search__icon-container {
+  height: calc(var(--font-size) + 2rem);
+  position: relative;
+  width: calc(var(--font-size) + 2rem);
+}
+.search__label, .search__submit {
+  color: var(--color);
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+}
+.search__label:hover, .search__submit:hover, .search__label:focus, .search__submit:focus, .search__label:active, .search__submit:active {
+  color: var(--color-highlight);
+}
+.search__label {
+  transition: transform var(--transition-time-icon) var(--easing), color 0.1s;
+}
+.search__submit {
+  background: none;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 0 0 4px inset transparent;
+  display: none;
+  outline: none;
+  transition: color 0.1s, box-shadow 0.1s;
+}
+.search__submit svg {
+  transform: scale(0.5);
+}
+.search__submit:focus {
+  box-shadow: 0 0 0 4px inset var(--color-highlight);
+}
+.search:focus-within {
+  border-color: var(--color);
+}
+.search:focus-within .search__input {
+  opacity: 1;
+  padding: 0 1rem 0 2rem;
+  width: calc(var(--font-size) * 12);
+}
+.search:focus-within .search__label {
+  transform: scale(0.5);
+}
+.search:focus-within .search__submit {
+  animation: unhide var(--transition-time-icon) steps(1, end);
+  display: block;
+}
+@keyframes unhide {
   from {
-    transform: rotate(0deg);
+    height: 0;
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    height: auto;
+    opacity: 1;
   }
+}
+
+.loading-spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+}
+
+/*-------------*/
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
 }
