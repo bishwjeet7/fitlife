@@ -15,8 +15,8 @@ function App() {
       <ResponsiveAppBar />
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/login" element={<Login />} />
-        {/* <Route path="/login" element={<RedirectToExternalURL />} /> */}
+        {/*<Route path="/login" element={<Login />} />*/}
+        <Route path="/login" element={<RedirectToExternalURL />} /> 
 
         <Route path="/Signup" element={<Signup />} />
         <Route path="/Exercise" element={<Exercise />} />
