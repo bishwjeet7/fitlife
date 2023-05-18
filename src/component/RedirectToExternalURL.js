@@ -6,7 +6,7 @@ function RedirectToExternalURL() {
 
   useEffect(() => {
     const redirectToURL = () => {
-      const externalURL = '64666af089ec473fcb5b67d5--glittering-gelato-4b805a.netlify.app';
+      const externalURL = 'https://64666af089ec473fcb5b67d5--glittering-gelato-4b805a.netlify.app/';
       window.open(externalURL, '_blank');
     };
 
