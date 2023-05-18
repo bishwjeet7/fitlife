@@ -37,12 +37,12 @@ function Footer() {
 
 				<div>
 					<i class="fa fa-map-marker"></i>
-					<p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+					<p><span>LOVELY PROFESSIONAL UNIVERSITY </span> PUNJAB, INDIA</p>
 				</div>
 
 				<div>
 					<i class="fa fa-phone"></i>
-					<p>+91 99999 88888</p>
+					<p> 91+ 8650837371</p>
 				</div>
 
 				<div>
